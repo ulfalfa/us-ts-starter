@@ -1,7 +1,4 @@
-console.log ('Hello World');
-
-export const TEST_CONSTANT = 'HELLO WORLD';
-
+export const TEST_CONSTANT = 'HELLO WORLD'
 
 /**
  * Generates Hello World
@@ -9,5 +6,5 @@ export const TEST_CONSTANT = 'HELLO WORLD';
  * @return        concatenates Hello + paramter;
  */
 export function testFunction(parOne: string): string {
-  return 'Hello ' + parOne;
+    return 'Hello ' + parOne
 }
